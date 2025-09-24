@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="80.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <TextField fx:id="numInput" prefHeight="54.0" prefWidth="478.0" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#sevenPressed" prefHeight="80.0" prefWidth="127.0" text="7" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#eightPressed" prefHeight="80.0" prefWidth="127.0" text="8" />
+            <Button layoutX="88.0" layoutY="10.0" mnemonicParsing="false" onAction="#ninePressed" prefHeight="80.0" prefWidth="127.0" text="9" />
+            <Button layoutX="166.0" layoutY="10.0" mnemonicParsing="false" onAction="#divPressed" prefHeight="80.0" prefWidth="127.0" text="÷" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#fourPressed" prefHeight="80.0" prefWidth="127.0" text="4" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#fivePressed" prefHeight="80.0" prefWidth="127.0" text="5" />
+            <Button layoutX="88.0" layoutY="10.0" mnemonicParsing="false" onAction="#sixPressed" prefHeight="80.0" prefWidth="127.0" text="6" />
+            <Button layoutX="166.0" layoutY="10.0" mnemonicParsing="false" onAction="#timesPressed" prefHeight="80.0" prefWidth="127.0" text="x" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onePressed" prefHeight="80.0" prefWidth="127.0" text="1" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#twoPressed" prefHeight="80.0" prefWidth="127.0" text="2" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#threePressed" prefHeight="80.0" prefWidth="127.0" text="3" />
+            <Button mnemonicParsing="false" onAction="#minPressed" prefHeight="80.0" prefWidth="127.0" text="-" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#cPressed" prefHeight="80.0" prefWidth="127.0" text="C" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#zeroPressed" prefHeight="80.0" prefWidth="127.0" text="0" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#plusPressed" prefHeight="80.0" prefWidth="127.0" text="+" />
+            <Button mnemonicParsing="false" onAction="#equalPressed" prefHeight="80.0" prefWidth="127.0" text="=" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>
